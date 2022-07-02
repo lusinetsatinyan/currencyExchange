@@ -1,0 +1,15 @@
+.form-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 200px;
+  .currency-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .currency-form-item {
+      display: flex;
+      gap: 30px;
+    }
+  }
+}

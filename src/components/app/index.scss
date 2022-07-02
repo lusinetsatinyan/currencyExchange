@@ -1,0 +1,19 @@
+.layout {
+   a {
+    text-decoration: none !important;
+    color: white;
+  }
+
+  .currency-container {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    > p {
+      display: flex;
+      align-items: center;
+    }
+    > div > div {
+      color: white
+    }
+  }
+}
